@@ -17,7 +17,8 @@ class OnboardingPage3 extends StatelessWidget {
           TextButton(
             onPressed: onSkip,
             child: const Text('Skip',
-                style: TextStyle(color: ColorUtility.mediumBlack)),
+                style:
+                    TextStyle(color: ColorUtility.mediumBlack, fontSize: 20)),
           ),
         ],
       ),
