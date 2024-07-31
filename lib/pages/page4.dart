@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pageview/static/static_image.dart';
 import 'package:pageview/widegts/pages_common_content.dart';
 
 class OnboardingPage4 extends StatelessWidget {
@@ -9,11 +10,11 @@ class OnboardingPage4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:  pagesContent(
-          'assets/images/pana.png',
-          'Course Catalog',
-          'View in which courses you are enrolled',
-        ),
+        body: pagesContent(
+      ImageUtility.pana,
+      'Course Catalog',
+      'View in which courses you are enrolled',
+    )
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pageview/static_colors.dart';
+import 'package:pageview/static/static_colors.dart';
+import 'package:pageview/static/static_image.dart';
 import 'package:pageview/widegts/pages_common_content.dart';
 
 class OnboardingPage1 extends StatelessWidget {
@@ -23,14 +24,10 @@ class OnboardingPage1 extends StatelessWidget {
         ],
       ),
       body: pagesContent(
-        'assets/images/badges.png',
+        ImageUtility.badges,
         'Certificate and Badges',
         'Earn certificates after completion of every course',
       ),
     );
   }
 }
-
-
-
-

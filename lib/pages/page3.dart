@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pageview/static_colors.dart';
+import 'package:pageview/static/static_colors.dart';
+import 'package:pageview/static/static_image.dart';
 import 'package:pageview/widegts/pages_common_content.dart';
 
 class OnboardingPage3 extends StatelessWidget {
@@ -21,7 +22,7 @@ class OnboardingPage3 extends StatelessWidget {
         ],
       ),
       body: pagesContent(
-        'assets/images/amico.png',
+        ImageUtility.amico,
         'Offline Access',
         'Make your course available offline',
       ),
